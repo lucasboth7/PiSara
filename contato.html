@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bordas">
+        <div class="padrao">
+
+            <div id="arrumarTopo">
+                <a href="index.html">
+                    <img src="maoComDinheiro.png" alt="Uma logo de uma mão com dinheiro" id="maoComDinheiro"> <img
+                        id="escritaEducFin" src="Educação Financeira.png" alt="">
+                </a>
+            </div>
+
+            <table>
+                <tr>
+                    <td><img src="LogoIF.png" alt="Logo do IFRS-Campus Erechim" width="200px"></td>
+                    <td><a href="index.html" class="link">Inicio</a></td>
+                    <td><a href="oQueEOPI.html" class="link">Oque é PI?</a></td>
+                    <td><a href="pqDoTema.html" class="link">Por que este tema?</a></td>
+                    <td><a href="questionario.html" class="link">Questionario</a></td>
+                    <td><a href="Objetivos.html" class="link">Objetivos</a></td>
+                    <td><a href="acoes.html" class="link">Ações</a></td>
+                    <td><a href="contato.html" class="link">Contato</a></td>
+                </tr>
+            </table>
+        </div> <!--Fim div padrao-->
+
+        <!--Início do corpo do site-->
+
+        <center>
+            <h1>Contato</h1>
+        </center>
+
+        <div class="paragrafo">
+            
+            <p>Para entrar em contato com algum representante do grupo, você pode mandar e-mail: </p>
+
+        <b>
+            <p>Marcos De Oliveira(Orientador):
+        </b><a href="mailto:marcos.oliveira@erechim.ifrs.edu.br"> marcos.oliveira@erechim.ifrs.edu.br </a></p>
+
+        <p>Denise De Oliveira(Coorientação):
+        </b><a href="mailto:marcos.oliveira@erechim.ifrs.edu.br"> denise.oliveira@erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Bruna Pigatto:
+        </b> <a href="mailto:2024319803@aluno.erechim.ifrs.edu.br"> 2024319803@aluno.erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Bruno Eduardo Rigo:
+        </b> <a href="mailto:2023304379@aluno.erechim.ifrs.edu.br"> 2023304379@aluno.erechim.ifrs.edu.br </a></p>
+
+        <b>
+            <p>Carol Tomkiel:
+        </b> <a href="mailto:2024303330@aluno.erechim.ifrs.edu.br"> 2024303330@aluno.erechim.ifrs.edu.br </a></p>
+        
+        <b>
+            <p>Laura Gritti:
+        </b> <a href="mailto:2024320054@aluno.erechim.ifrs.edu.br"> 2024320054@aluno.erechim.ifrs.edu.br </a></p>
+            
+        <b>
+            <p>Sara Bertolla:
+        </b> <a href="mailto:2024302851@aluno.erechim.ifrs.edu.br"> 2024302851@aluno.erechim.ifrs.edu.br </a></p>
+
+        </div> <!--Parágrafo-->
+
+        <div class="containerFormContato">
+
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+            <label for="recipient">Selecione o destinatário</label>
+            <select id="recipient" name="recipient" required>
+                <option value="marcos.oliveira@erechim.ifrs.edu.br">Marcos De Oliveira(Orientador) </option>
+                <option value="marcos.oliveira@erechim.ifrs.edu.br">Denise De Oliveira(Coorientação) </option>
+                <option value="2024319803@aluno.erechim.ifrs.edu.br">Bruna Pigatto</option>
+                <option value="2023304379@aluno.erechim.ifrs.edu.br">Bruno Eduardo Rigo</option>
+                <option value="2024303330@aluno.erechim.ifrs.edu.br">Carol Tomkiel</option>
+                <option value="2024320054@aluno.erechim.ifrs.edu.br">Laura Gritti</option>
+                <option value="2024302851@aluno.erechim.ifrs.edu.br">Sara Bertolla</option>
+            </select>
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+
+
+        <style>
+            #message {
+                resize: none;
+                /* Impede o redimensionamento */
+            }
+
+            .containerFormContato {
+                max-width: 600px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin-top: 50px;
+            }
+
+            label {
+                font-size: 14px;
+                color: #333;
+                margin-bottom: 5px;
+                display: block;
+            }
+
+            input,
+            textarea,
+            select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 14px;
+            }
+
+            textarea {
+                resize: vertical;
+            }
+
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            button:hover {
+                background-color: #45a049;
+            }
+
+            .success-message {
+                color: green;
+                text-align: center;
+            }
+
+            a{
+                text-decoration: none;
+                color: rgb(114, 114, 114);
+            }
+        </style>
+
+
+        <!--Fim do corpo do site-->
+    </div><!--Bordas-->
+
+
+</body>
+<script src="teste.js"></script>
+</html>

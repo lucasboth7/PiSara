@@ -1,0 +1,93 @@
+body {
+    background-color: #374360;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(194, 194, 194);
+    font-size: 17px;
+}
+
+
+.bordas {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+#arrumarTopo{
+    text-align: center;
+}
+
+#escritaEducFin{
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#maoComDinheiro{
+    width: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+table {
+
+    border-style: groove;
+    margin: 50px auto;
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    /* Remove espaços entre as células */
+    
+
+}
+
+td {
+    border: 1px #ffffff;
+    padding: 16px;
+
+}
+
+a.link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.ativo{
+    color: #2f9e41;
+}
+
+a:hover {
+    /*Coloca o cursos em cima*/
+    color: rgb(255, 72, 72);
+}
+
+.paragrafo {
+    text-indent: 30px;
+}
+
+ol{
+    color:rgb(194, 194, 194);
+}
+
+ul{
+    color:rgb(194, 194, 194);
+}
+
+.imagemPalestra{
+    text-align: center;
+}
